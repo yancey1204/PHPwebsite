@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+/* Background */
+html {
+	background: url(../images/backgroundImage.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/* end of background */
+/*menu bar style */
+#cssmenu {
+	background: rgba(0,0,0,0.6);
+	border-radius: 6px;
+	width: 50%;
+	margin-left: 10%;
+	margin-right: auto;
+}
+#menulist {
+	list-style: none;
+	margin: 0;
+	padding: 1px;
+	line-height: 1;
+	display: block;
+	zoom: 1;
+	text-align: center;
+}
+.Sub{
+	position: absolute;
+	display: none;
+	font: normal 15px "Microsoft Yahei", Arial;
+	color: whitesmoke;
+	list-style: none;
+	padding: 0px;
+	line-height: 3;
+	zoom: 1;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	border-radius: 0px 0px 6px 6px;
+	z-index: 1;
+}
+.inline {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+#cssmenu.align-right ul li {
+	float: right;
+}
+#cssmenu.align-center ul {
+	text-align: center;
+}
+.inline a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font: normal 14px "Microsoft Yahei", Arial;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	-webkit-transition: color .25s;
+	-moz-transition: color .25s;
+	-ms-transition: color .25s;
+	-o-transition: color .25s;
+	transition: color .25s;
+}
+.inline a:hover {
+	color: #f96e5b;
+}
+.inline a:hover:before {
+	width: 100%;
+}
+.inline a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 0;
+	background: #f96e5b;
+	-webkit-transition: width .25s;
+	-moz-transition: width .25s;
+	-ms-transition: width .25s;
+	-o-transition: width .25s;
+	transition: width .25s;
+}
+.inline.active a {
+	color: #f96e5b;
+}
+.inline.active a:before {
+	width: 100%;
+}
+#active{ color: #f96e5b;}
+#active:before{width: 100%;}
+@media screen and (max-width: 1024px) {
+#cssmenu ul li {
+	float: none;
+	display: block;
+}
+#cssmenu ul li a {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: 1px solid #fb998c;
+}
+#cssmenu ul li.last > a, #cssmenu ul li:last-child > a {
+	border: 0;
+}
+#cssmenu ul li a:before {
+	display: none;
+}
+.submenu {
+	margin-left: 48.9%;
+	margin-top: -50px;
+	border-radius: 6px;
+}
+}
+/* end of menu bar */	
+/* banner */
+#banner {
+	background: rgba(72,72,72,0.6);
+	margin: 0px 10% auto;
+	border-radius: 6px;
+	width: 50%;
+}
+#banner p {
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	color: rgba(236, 240, 241,1.0);
+	font: normal 22px "Microsoft Yahei", Arial;
+	padding: 9px 0 9px 0;
+	margin-left: 5%;
+	width: 80%;
+}
+/* end of banner*/

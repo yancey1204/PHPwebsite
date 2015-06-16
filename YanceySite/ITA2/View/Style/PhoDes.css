@@ -1,0 +1,74 @@
+/* photo and description */
+.section,#banner {
+    border-radius: 6px;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.section{
+     background: rgba(0,0,0,0.6);
+}
+.title, .upload{
+    font: normal 14px "Microsoft Yahei", Arial;
+    color: whitesmoke;
+}
+.title{padding: 1px 0px 1px 38px;}
+.section{text-align: center;}
+.section h2 {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+}
+.photo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.photo img {
+    width: 88%
+}
+#content p {
+    font: normal 14px "Microsoft Yahei", Arial;
+    color: whitesmoke;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.date {
+    display: none;
+}
+.mouseenter {
+    width: 75px;
+    height: 60px;
+    position: relative;
+    padding: 0 10px;
+    display: block;
+    background: rgba(0,0,0,0.6);
+    font: normal 18px "Microsoft Yahei", Arial;
+    color: whitesmoke;
+    left: 100%;
+    border-radius: 6px;
+}
+.mouseoverTitle {
+    margin-top: -60px;
+}
+/* end of photo and description*/
+
+/* textarea  */
+.textareaContainer{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.textareaContainer textarea{
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+/* end of textare */
+
+/* input */
+#file{padding:1px 0px 20px 38px;}
+#image_preview{display: none}
+/*en of input */
+

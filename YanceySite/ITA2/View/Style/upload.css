@@ -1,0 +1,32 @@
+/* upload Title*/
+.uploadUl{display: block;padding-left: 0px;}
+.uploadLi{display: inline-block;}
+.uploadLi span{color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 15px 25px;
+	font: normal 12px "Microsoft Yahei", Arial;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;}
+/* end of upload Title*/
+
+
+/* upload Title*/
+.uploadLi span:hover{
+    color: #f96e5b;
+    cursor:pointer;
+}
+/* end of upload Title*/
+
+
+/* upload Title*/
+
+/* end of upload Title*/
+
+
+/* upload Title*/
+
+/* end of upload Title*/
+
