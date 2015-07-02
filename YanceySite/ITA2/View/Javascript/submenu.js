@@ -24,17 +24,4 @@ $(document).ready(function () {
         $("#loginForm").fadeIn();
         $("#registerForm").hide();
     });
-
-    $(".closeIMG").mouseover(function () {
-        $(".closeHover").stop().show();
-    });
-    $(".closeIMG").mouseout(function () {
-        $(".closeHover").stop().hide();
-    });
-    $(".closeIMG").click(function () {
-        $(".RegisterLoginForm").hide();
-    });
-    $(".closeHover").click(function () {
-        $(".RegisterLoginForm").hide();
-    });
 });
